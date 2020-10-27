@@ -32,7 +32,7 @@ Tge AutoML algorithm, as the name applies, takes in the best parameters specifie
 ![alt text](https://github.com/AmDeep/Optimzing-An-ML-Pipeline-in-Azure-Readme/blob/main/Hyperdrive/Hyperdrive_Image1.PNG)
 
 With repeated runs, it can be ascertained that the accuracies for both the hyperdrive algorithm and the AutoML algorithm are similar in terms of accuracies(a 90% achieved with the hyperdrive while ~91% using the AutoML generator). It should be noted that the accuracies obtained from AutoML are more suitable as the system arrives at the best configuration for the algorithm. The MaxAbsScaler LightGBM algorithm returned the best accuracy with a 0.9148 output. Both architectures can be seen and compared in the images below.
-![alt text](https://github.com/AmDeep/Optimzing-An-ML-Pipeline-in-Azure-Readme/blob/main/Images/HDArchitecture.PNG)
+![alt text](https://github.com/AmDeep/Optimzing-An-ML-Pipeline-in-Azure-Readme/blob/main/Images/HDArchitecture.png)
 ![alt text](https://raw.githubusercontent.com/AmDeep/Optimzing-An-ML-Pipeline-in-Azure-Readme/main/Images/VotingClassifer1.png)
 
 The difference is definitely a result of the difference in the batch size of the runs and the maximum number of iterations performed. A bigger difference can also be linked to the use of different algorithms in both cases.
