@@ -44,5 +44,5 @@ The difference is definitely a result of the difference in the batch size of the
 For future experiments, the project can be expanded to include other metrics for logistic regression studies such as maximum number of batch sizes, loss functions, L2 regularization and median absolute errors. Classification reports from the XGBoosting function can be expanded to include a matrix for false positives, false negatives, true positives and true negatives. The threshold for parameters can also be expanded to include a wider range. All these steps will help in providing a clearer interpretation of the models and their approach to predicting the output.
 ## Compute Cluster Deletion
 The proof for the deletion of the compute cluster can be seen from the image below. The same can be confirmed through the Hyperdrive.ipynb file on the repository.
-![alt text](https://github.com/AmDeep/Optimzing-An-ML-Pipeline-in-Azure-Readme/blob/main/Hyperdrive/Images/ComputeClusterDelete.PNG)
+![alt text](https://github.com/AmDeep/Optimzing-An-ML-Pipeline-in-Azure-Readme/blob/main/Images/ComputeClusterDelete.PNG)
 
